@@ -28,47 +28,6 @@
   "token": [],
   "menu": [
     {
-      "id": 4,
-      "parentId": 0,
-      "path": "",
-      "icon": "appstore",
-      "title": "应急管理系统",
-      "name": "应急管理系统",
-      "leftMemu": true,
-      "functionCode": "",
-      "sort": 1
-    },
-    {
-      "id": 5,
-      "parentId": 4,
-      "path": "/system",
-      "icon": "setting",
-      "title": "服务治理",
-      "name": "系统设置",
-      "leftMemu": true,
-      "functionCode": ""
-    },
-    {
-      "id": 6,
-      "parentId": 5,
-      "path": "menu",
-      "icon": "chrome",
-      "title": "菜单管理",
-      "name": "menu",
-      "leftMemu": true,
-      "functionCode": "menu_view"
-    },
-    {
-      "id": 7,
-      "parentId": 4,
-      "path": "/permission",
-      "icon": "key",
-      "title": "流程管理",
-      "name": "权限管理",
-      "leftMemu": true,
-      "functionCode": ""
-    },
-    {
       "id": 8,
       "parentId": 7,
       "path": "function",
@@ -119,16 +78,6 @@
       "functionCode": "user_role_view"
     },
     {
-      "id": 12,
-      "parentId": 4,
-      "path": "/organization",
-      "icon": "usergroup-add",
-      "title": "统一门户",
-      "name": "组织架构",
-      "leftMemu": true,
-      "functionCode": ""
-    },
-    {
       "id": 13,
       "parentId": 12,
       "path": "department",
@@ -149,55 +98,6 @@
       "functionCode": "position_view"
     },
     {
-      "id": 15,
-      "parentId": 4,
-      "path": "/user",
-      "icon": "user-add",
-      "title": "统一身份",
-      "name": "用户管理",
-      "leftMemu": true,
-      "functionCode": ""
-    },
-    {
-      "id": 16,
-      "parentId": 15,
-      "path": "index",
-      "icon": "twitter",
-      "title": "用户管理",
-      "name": "user_index",
-      "leftMemu": true,
-      "functionCode": "user_view"
-    },
-    {
-      "id": 17,
-      "parentId": 0,
-      "path": "/",
-      "name": "otherRouter",
-      "leftMemu": true,
-      "icon": "video-camera",
-      "functionCode": "",
-      "title": "流程管理",
-      "sort": 4
-    },
-    {
-      "id": 18,
-      "parentId": 17,
-      "path": "home",
-      "title": "首页",
-      "name": "home_index",
-      "icon": "hourglass",
-      "functionCode": ""
-    },
-    {
-      "id": 19,
-      "parentId": 17,
-      "path": "userinfo",
-      "title": "个人中心",
-      "name": "userinfo",
-      "icon": "right-square-o",
-      "functionCode": ""
-    },
-    {
       "id": "5da38c51-f65c-4e6f-82d4-5e9d746873b2",
       "parentId": "b4db3bed-b26b-48de-ba75-5e8c350c1f3c",
       "title": "Toolbar",
@@ -205,22 +105,6 @@
       "leftMemu": true,
       "sort": 1,
       "icon": "minus-circle"
-    },
-    {
-      "id": "ef59de52-9995-49bc-a8ab-fb41093639c9",
-      "parentId": 17,
-      "title": "审计日志",
-      "name": "requestlog",
-      "icon": "form"
-    },
-    {
-      "id": "71ae63b5-c2dd-4916-9ef5-cd10a9417511",
-      "parentId": 4,
-      "name": "平台管理",
-      "title": "平台管理",
-      "sort": 0,
-      "leftMemu": true,
-      "icon": "desktop"
     },
     {
       "id": "e3302b1a-1359-4638-9642-2aee03ac4647",
@@ -260,8 +144,53 @@
       "icon": "global"
     },
     {
-      "id": "dd0148a8-1687-45e1-aa55-6975e2126ceb",
-      "parentId": 15,
+      "id": "6605b0ca-f0e5-4d45-ad2d-916567b72f81",
+      "parentId": 0,
+      "name": "sysManagment",
+      "title": "平台管理",
+      "sort": 4,
+      "leftMemu": true,
+      "icon": "windows"
+    },
+    {
+      "id": "883a6765-b7cf-463a-ba99-0930834115d2",
+      "parentId": 0,
+      "name": "servManagement",
+      "title": "服务治理",
+      "sort": 2,
+      "leftMemu": true,
+      "icon": "setting"
+    },
+    {
+      "id": "00740f70-cea6-49be-b4e6-28da8c066408",
+      "parentId": 0,
+      "name": "procManagement",
+      "title": "流程管理",
+      "sort": 3,
+      "leftMemu": true,
+      "icon": "disconnect"
+    },
+    {
+      "id": "b49faeee-8016-4dbd-9579-d30e4aa7c22e",
+      "parentId": 0,
+      "name": "omniGateway",
+      "title": "统一门户",
+      "sort": 1,
+      "leftMemu": true,
+      "icon": "team"
+    },
+    {
+      "id": "8b0d6084-be32-48bc-9afd-c3cc4edf594f",
+      "parentId": 0,
+      "name": "omniIdentity",
+      "title": "统一身份",
+      "sort": 5,
+      "leftMemu": true,
+      "icon": "contacts"
+    },
+    {
+      "id": "60d98a9c-7f1f-4d6e-a3dd-5602c0f41778",
+      "parentId": "8b0d6084-be32-48bc-9afd-c3cc4edf594f",
       "name": "profile",
       "title": "用户信息",
       "sort": 0,
@@ -269,49 +198,112 @@
       "icon": "profile"
     },
     {
-      "id": "0ba090e3-489b-468d-8297-b228a4f13f8d",
-      "parentId": 5,
-      "name": "serviceIndex",
-      "title": "服务主页",
-      "sort": 0,
-      "leftMemu": true,
-      "icon": "laptop"
-    },
-    {
-      "id": "13c5890a-7ca6-4b3e-932d-41e40510e8df",
-      "parentId": 5,
-      "name": "serviceManage",
-      "title": "服务管理",
+      "id": "6ea4346f-72d4-47f9-a402-ee4f74599497",
+      "parentId": "6605b0ca-f0e5-4d45-ad2d-916567b72f81",
+      "name": "resourceManagement",
+      "title": "资源管理",
       "sort": 0,
       "leftMemu": true,
       "icon": "solution"
     },
     {
-      "id": "c2cfef0a-7846-4396-b2d8-eecc45d1c1bd",
-      "parentId": 5,
-      "name": "serviceImage",
-      "title": "服务镜像",
+      "id": "10998add-bf2a-4b5d-ba39-f40567c369d7",
+      "parentId": "6605b0ca-f0e5-4d45-ad2d-916567b72f81",
+      "name": "interConnections",
+      "title": "多平台互联互通",
       "sort": 0,
       "leftMemu": true,
-      "icon": "pushpin"
+      "icon": "plus-circle-o"
     },
     {
-      "id": "62e100ac-ad9d-44e6-80ea-180724d317ff",
-      "parentId": 5,
-      "name": "servicePort",
-      "title": "服务端口",
+      "id": "eb3ead37-7ca9-4522-b755-33f13bbd9fe8",
+      "parentId": "6605b0ca-f0e5-4d45-ad2d-916567b72f81",
+      "name": "interSchedule",
+      "title": "跨平台调度",
       "sort": 0,
       "leftMemu": true,
-      "icon": "api"
+      "icon": "schedule"
     },
     {
-      "id": "024a6039-96ad-42c9-97b0-c84a31ab56d2",
-      "parentId": 5,
-      "name": "serviceRegister",
-      "title": "服务注册",
+      "id": "1b960710-d06b-4155-b059-4ee62785a362",
+      "parentId": "6ea4346f-72d4-47f9-a402-ee4f74599497",
+      "name": "computeResource",
+      "title": "计算资源",
       "sort": 0,
       "leftMemu": true,
-      "icon": "poweroff"
+      "icon": "calculator"
+    },
+    {
+      "id": "a0925c69-21b7-4e7b-b3f2-0e1464a06cb5",
+      "parentId": "6ea4346f-72d4-47f9-a402-ee4f74599497",
+      "name": "nodesMon",
+      "title": "节点资源",
+      "sort": 0,
+      "leftMemu": true,
+      "icon": "share-alt"
+    },
+    {
+      "id": "09eb4ae0-8c10-4460-ab24-db00a366218a",
+      "parentId": "6ea4346f-72d4-47f9-a402-ee4f74599497",
+      "name": "networksMon",
+      "title": "网络资源",
+      "sort": 0,
+      "leftMemu": true,
+      "icon": "dribbble"
+    },
+    {
+      "id": "ce09c22a-a2e6-4062-91f6-a74af50eaed0",
+      "parentId": "6ea4346f-72d4-47f9-a402-ee4f74599497",
+      "name": "servicesMon",
+      "title": "服务资源",
+      "sort": 0,
+      "leftMemu": true,
+      "icon": "rollback"
+    },
+    {
+      "id": "e4004c6a-bf53-441a-9a74-89ceba570abe",
+      "parentId": "10998add-bf2a-4b5d-ba39-f40567c369d7",
+      "name": "platformServiceType",
+      "title": "各平台服务类型",
+      "sort": 0,
+      "leftMemu": true,
+      "icon": "menu-unfold"
+    },
+    {
+      "id": "78bd8976-f24a-41dd-94da-3fcf435dffb7",
+      "parentId": "10998add-bf2a-4b5d-ba39-f40567c369d7",
+      "name": "platformConnectStatus",
+      "title": "各平台连通状态",
+      "sort": 0,
+      "leftMemu": true,
+      "icon": "check-square-o"
+    },
+    {
+      "id": "ea49f32b-6768-4943-bf20-86bc48fe1d9e",
+      "parentId": "10998add-bf2a-4b5d-ba39-f40567c369d7",
+      "name": "platformUserSearch",
+      "title": "各平台用户查询",
+      "sort": 0,
+      "leftMemu": true,
+      "icon": "search"
+    },
+    {
+      "id": "71155c40-370c-4724-9533-061af1795d23",
+      "parentId": "eb3ead37-7ca9-4522-b755-33f13bbd9fe8",
+      "name": "crossPlatformService",
+      "title": "跨平台服务调用",
+      "sort": 0,
+      "leftMemu": true,
+      "icon": "retweet"
+    },
+    {
+      "id": "3d51b797-814e-46a5-afe0-7104c25f78d2",
+      "parentId": "eb3ead37-7ca9-4522-b755-33f13bbd9fe8",
+      "name": "crossPlatformSystem",
+      "title": "跨平台系统访问",
+      "sort": 0,
+      "leftMemu": true,
+      "icon": "filter"
     }
   ],
   "function": [
